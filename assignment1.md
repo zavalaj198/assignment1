@@ -21,8 +21,9 @@ Two design goals that I think will conflict would be timeliness and roboustness 
     (b) Read the time-of-day clock.
     (c) Set the time-of-day clock. (d) Change the memory map.
 A. disable all interrupts. C. set the time-of-day clock. D. change the memory map  
-9. Consider a system that has two CPUs, each CPU having two threads (hyperthreading). Suppose three programs, P0, P1, and P2, are started with run times of 5, 10 and 20 msec, respectively. How long will it take to complete the execution of these programs? Assume that all three programs are 100% CPU bound, do not block during execution, and do not change CPUs once assigned.
-
-10. What is a trap instruction? Explain its use in operating systems.
-
-11. Modern operating systems decouple a process address space from the machine’s physical memory. List two advantages of this design.
+9. Consider a system that has two CPUs, each CPU having two threads (hyperthreading). Suppose three programs, P0, P1, and P2, are started with run times of 5, 10 and 20 msec, respectively. How long will it take to complete the execution of these programs? Assume that all three programs are 100% CPU bound, do not block during execution, and do not change CPUs once assigned.  
+20 msec because it has 4 threads and 3 programs  
+10. What is a trap instruction? Explain its use in operating systems.  
+A trap insruction is when the program needs help from the operating system. It then switches out to kenrnel mode.  
+11. Modern operating systems decouple a process address space from the machine’s physical memory. List two advantages of this design.  
+It doesnt have programs mess with each others memory and it doesnt allow for fake signals to be sent.  
