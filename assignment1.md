@@ -13,7 +13,7 @@ The idea is still around with virtual memory.
 4. What is the difference between kernel and user mode? Explain how having two distinct modes aids in designing an operating system.
 Kernal mode is always in control of aid in designing a operating system. User mode has alot more limitations. They are kept in seperate areas so the operating system doesn't get them mixed up and cause errors.   
 5. On early computers, every byte of data read or written was handled by the CPU (i.e., there was no DMA). What implications does this have for multiprogramming?
-
+This meant that the CPU had to do everything for I/O. Every task had to be done step by step which took alot longer than it would normally.  
 6. There are several design goals in building an operating system, for example, resource utilization, timeliness, robustness, and so on. Give an example of two design goals that may contradict one another.
 
 7. Which of the following instructions should be allowed only in kernel mode?
