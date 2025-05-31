@@ -1,6 +1,6 @@
-#Jorge Zavala
-##CECS 326 Sec01
-###5/30/2025 
+Jorge Zavala
+CECS 326 Sec01 /n
+5/30/2025 /n
 ### Assignment Description
 Answer the following questions from the Chapter 1 reading from your text- book. Be through and complete with your answers. You may work on these questions with one or two other partners, but *all* students must submit the document individually in their own repositories along with each student's name documented with the submission.
 
