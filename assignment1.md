@@ -9,9 +9,9 @@ One main functions of an operating system include using it as an extended machin
 2. What is the difference between timesharing and multiprogramming systems?  
 Multiprogramming systems are able to use the CPU to to run several jobs at the same time.  Timesharing does the the same tasks but it does so using multiple users.  
 3. The family-of-computers idea was introduced in the 1960s with the IBM System/360 mainframes. Is this idea now dead as a doornail or does it live on?    
-The idea is still around  
+The idea is still around with virtual memory.  
 4. What is the difference between kernel and user mode? Explain how having two distinct modes aids in designing an operating system.
-
+Kernal mode is always in control of aid in designing a operating system. User mode has alot more limitations. They are kept in seperate areas so the operating system doesn't get them mixed up and cause errors.   
 5. On early computers, every byte of data read or written was handled by the CPU (i.e., there was no DMA). What implications does this have for multiprogramming?
 
 6. There are several design goals in building an operating system, for example, resource utilization, timeliness, robustness, and so on. Give an example of two design goals that may contradict one another.
