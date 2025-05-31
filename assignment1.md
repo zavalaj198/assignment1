@@ -6,8 +6,8 @@ Answer the following questions from the Chapter 1 reading from your text- book. 
 
 1. What are the two main functions of an operating system?  
 One main functions of an operating system include using it as an extended machine that turns ugly hardware into beautiful creations. The other main function of an operating system is using it as a resource manager.  
-2. What is the difference between timesharing and multiprogramming systems?
-
+2. What is the difference between timesharing and multiprogramming systems?  
+Multiprogramming systems are able to use the CPU to to run several jobs at the same time.  Timesharing does the the same tasks but it does so using multiple users.  
 3. The family-of-computers idea was introduced in the 1960s with the IBM System/360 mainframes. Is this idea now dead as a doornail or does it live on?
 
 4. What is the difference between kernel and user mode? Explain how having two distinct modes aids in designing an operating system.
