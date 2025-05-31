@@ -10,19 +10,19 @@ One main functions of an operating system include using it as an extended machin
 Multiprogramming systems are able to use the CPU to to run several jobs at the same time.  Timesharing does the the same tasks but it does so using multiple users.  
 3. The family-of-computers idea was introduced in the 1960s with the IBM System/360 mainframes. Is this idea now dead as a doornail or does it live on?    
 The idea is still around with virtual memory.  
-4. What is the difference between kernel and user mode? Explain how having two distinct modes aids in designing an operating system.
+4. What is the difference between kernel and user mode? Explain how having two distinct modes aids in designing an operating system.  
 Kernal mode is always in control of aid in designing a operating system. User mode has alot more limitations. They are kept in seperate areas so the operating system doesn't get them mixed up and cause errors.   
-5. On early computers, every byte of data read or written was handled by the CPU (i.e., there was no DMA). What implications does this have for multiprogramming?
+5. On early computers, every byte of data read or written was handled by the CPU (i.e., there was no DMA). What implications does this have for multiprogramming?  
 This meant that the CPU had to do everything for I/O. Every task had to be done step by step which took alot longer than it would normally.  
-6. There are several design goals in building an operating system, for example, resource utilization, timeliness, robustness, and so on. Give an example of two design goals that may contradict one another.
+6. There are several design goals in building an operating system, for example, resource utilization, timeliness, robustness, and so on. Give an example of two design goals that may contradict one another.  
 Two design goals that I think will conflict would be timeliness and roboustness because I think that speed and accuracy might be a problem if the goal is to finish a task to the best of your ability time would be a factor and if the main goal is to speed up it might affect the quality.  
 7. Which of the following instructions should be allowed only in kernel mode?
     (a) Disable all interrupts.
     (b) Read the time-of-day clock.
     (c) Set the time-of-day clock. (d) Change the memory map.
+A. disable all interrupts. C. set the time-of-day clock. D. change the memory map  
+9. Consider a system that has two CPUs, each CPU having two threads (hyperthreading). Suppose three programs, P0, P1, and P2, are started with run times of 5, 10 and 20 msec, respectively. How long will it take to complete the execution of these programs? Assume that all three programs are 100% CPU bound, do not block during execution, and do not change CPUs once assigned.
 
-8. Consider a system that has two CPUs, each CPU having two threads (hyperthreading). Suppose three programs, P0, P1, and P2, are started with run times of 5, 10 and 20 msec, respectively. How long will it take to complete the execution of these programs? Assume that all three programs are 100% CPU bound, do not block during execution, and do not change CPUs once assigned.
+10. What is a trap instruction? Explain its use in operating systems.
 
-9. What is a trap instruction? Explain its use in operating systems.
-
-10. Modern operating systems decouple a process address space from the machine’s physical memory. List two advantages of this design.
+11. Modern operating systems decouple a process address space from the machine’s physical memory. List two advantages of this design.
