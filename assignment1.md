@@ -15,7 +15,7 @@ Kernal mode is always in control of aid in designing a operating system. User mo
 5. On early computers, every byte of data read or written was handled by the CPU (i.e., there was no DMA). What implications does this have for multiprogramming?
 This meant that the CPU had to do everything for I/O. Every task had to be done step by step which took alot longer than it would normally.  
 6. There are several design goals in building an operating system, for example, resource utilization, timeliness, robustness, and so on. Give an example of two design goals that may contradict one another.
-
+Two design goals that I think will conflict would be timeliness and roboustness because I think that speed and accuracy might be a problem if the goal is to finish a task to the best of your ability time would be a factor and if the main goal is to speed up it might affect the quality.  
 7. Which of the following instructions should be allowed only in kernel mode?
     (a) Disable all interrupts.
     (b) Read the time-of-day clock.
